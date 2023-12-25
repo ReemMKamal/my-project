@@ -1,0 +1,51 @@
+
+body{
+    background: #202a32;
+    font-family: Arial 
+}
+form{
+    width: 450px;
+    height: 500px;
+    border: 1px solid #8b8ab4;
+    border-radius: 20px;
+    margin: 50px auto
+}
+h2{
+    color: #fff;
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+}
+input[type="text"],[type="password"]{
+    width: 300px;
+    height: 60px;
+    margin-bottom: 20px;
+    margin-left: 45px;
+    border: 1px solid #8b8ab4;
+    border-radius: 10px;
+    outline: none;
+}
+button[type="submit"]{
+    width: 150px;
+    height: 60px;
+    margin-left: 150px;
+    border: 1px solid #8b8ab4;
+    border-radius: 10px;
+    color: #79dae7;
+    font-size: 30px;
+    outline: none;
+}
+input[type="checkbox"]{
+    color: #fff;
+    margin-left: 45px;
+}
+label{
+    color: azure;
+}
+input[type="checkbox"]:after{
+    
+    color: #fff;
+    line-height: 1;
+    position: absolute;
+    left: 560px;
+}
